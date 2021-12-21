@@ -1,0 +1,103 @@
+{
+  "name": "Ashutosh Maheshwari",
+  "currentPosition": "Senior Software Engineer",
+  "summary": "",
+  "contactInfo": {
+    "email": {
+      "value": "ashutosh.ismcse@gmail.com",
+      "displayValue": "ashutosh.ismcse@gmail.com",
+      "icon": "fa fa-envelope"
+    },
+    "phone": {
+      "value": "8770096276",
+      "displayValue": "8770096276",
+      "icon": "fa fa-phone"
+    },
+    "linkedin": {
+      "value": "https://www.linkedin.com/in/maheshwari-ashutosh/",
+      "displayValue": "maheshwari-ashutosh",
+      "icon": "fa fa-linkedin"
+    },
+    "github": {
+      "value": "https://github.com/maheshwari-ashutosh",
+      "displayValue": "maheshwari-ashutosh",
+      "icon": "fa fa-github"
+    }
+  },
+  "Work Experience": {
+    "Vyapar App, Bangalore": {
+      "Senior Software Engineer": {
+        "fromDate": "May 2021",
+        "toDate": "present",
+        "workItems": {
+          "1": "Engineered Vyapar desktop application features using frontend web technologies (Reactjs, JavaScript, CSS) and SQLite Database",
+          "2": "Worked closely with Product and Design team from concept through deployment",
+          "3": "Developed features which are used by around 35% of the active desktop user base daily",
+          "4": "Followed design patterns in JS and React for high performant, modular and reusable code"
+        }
+      }
+    },
+    "Samsung Research Institute Bangalore": {
+      "Senior Software Engineer": {
+        "fromDate": "July 2018",
+        "toDate": "May 2021",
+        "workItems": {
+          "1": "Designed and developed Federated Learning dashboard using Reactjs, Redux, Sass preprocessor. It's currently being used by developers to add, train, validate, and check the training history for their FL model",
+          "2": "Developed Alive switch engine as an Android Archive in Java,which helped UI team to query for the combo apps.",
+          "3": "Developed API for generating document(docx),presentation(pptx), and excel(xlsx) on top of Apache POI in Java, for the team to seamlessly integrate their code for document generation",
+        }
+      },
+      "Software Developer Intern": {
+        "fromDate": "January 2018",
+        "toDate": "June 2021",
+        "workItems": {
+          "1": "Implemented Intelligent Search for Android Platform using Lucene in Java",
+          "2": "Developed the search, and query structure for the settings POC app, with suggestions and highlighting"
+        }
+      }
+    },
+    "Walmart Labs": {
+      "Software Developer Intern": {
+        "fromDate": "January 2018",
+        "toDate": "June 2021",
+        "workItems": {
+          "1": "Developed Voice Picking cross-platform POC app for Distribution Centres, Used Ionic2 (Angular 2) and cordova plugins for designing app",
+          "2": "For Speech Recognition Used PocketSphinx tool with CMUSphinx library, Trained model with manual vocabulary, Language model and Grammar."
+        }
+      }
+    }
+  },
+  "Language And Technologies": ["JavaScript", "Reactjs", "CSS/Sass", "Cpp", "Java", "HTML", "Git"],
+  "Achievements": [
+    {
+      "heading": "Samsung Citizen Award",
+      "detail": "For outstanding work in FL Dashboard development"
+    },
+    {
+      "heading": "Professional Software competency level",
+      "detail": "Among four software competency levels in samsung, cleared 3 levels."
+    },
+    {
+      "heading": "Semi-finalist in Go Green in the City 2015",
+      "detail": "Secured rank under 100 world-wide"
+    },
+    {
+      "heading":"Branch Placement Representative",
+      "detail": "(07/2016 – 05/2018)"
+    }
+  ],
+  "Education": {
+    "Dual Degree (B.Tech + M.Tech) in CSE": {
+      "name": "Indian Institute of Technology (ISM), Dhanbad",
+      "from": "July 2013",
+      "to": "May 2018",
+      "result": {
+        "title": "GPA",
+        "value": "8.33"
+      },
+      "summary": [
+        "Thesis on 'Fast Phrase Querying using n-hashgram indexing technique'"
+      ]
+    }
+  }
+}
