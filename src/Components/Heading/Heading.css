@@ -1,6 +1,8 @@
 #Heading {
   font-size: 2.5rem;
   font-weight: bold;
-  padding: 1rem 0;
+  padding: .5rem 0;
   border-bottom: 1px solid lightblue;
+  border-top: 1px solid lightblue;
+  margin-bottom: .5rem;
 }

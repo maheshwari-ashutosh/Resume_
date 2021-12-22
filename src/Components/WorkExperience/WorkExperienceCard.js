@@ -1,10 +1,27 @@
 import React from "react";  
 
 const WorkExperienceCard = (props) => {
-  const companyName = props.companyName;
-  const positions = props.positions;
+  const position = props.position;
+  const companyDetails = props.companyDetails;
+
   return <div className='workExperienceCard'>
-    {Object.keys(positions).map(position => {
+      <div className='position'>{position}</div>
+      {
+      Object.keys(companyDetails).map(companyName => {
+        return <div className='experienceDetails'> 
+          <div className='companyName'>{companyName}</div>
+          <div className='duration'> 
+          {companyDetails[companyName].fromDate} - {companyDetails[companyName].toDate}
+        </div>
+        <ul className='workItems'>
+          {companyDetails[companyName].workItems.map((item, index) => {
+            return <li key={index}>{item} </li>
+          })}
+        </ul>
+        </div>
+      })
+    }
+    {/* {Object.keys(positions).map(position => {
       return <div className='experienceDetails'> 
         <div className='position'>{position}</div>
         <div className='companyName'> {companyName} </div>
@@ -17,7 +34,7 @@ const WorkExperienceCard = (props) => {
           })}
         </ul>
       </div>
-    })}
+    })} */}
   </div>
 }
 

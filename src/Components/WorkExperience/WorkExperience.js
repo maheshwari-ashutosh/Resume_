@@ -9,7 +9,7 @@ const WorkExperience = (props) => {
   return <div id='WorkExperience'>
     <Heading heading='Work Experience' />
     {Object.keys(workExperience).map(key => {
-      return <WorkExperienceCard key={key} companyName={key} positions={workExperience[key]} />
+      return <WorkExperienceCard key={key} position={key} companyDetails={workExperience[key]} />
     })}
   </div>
 }

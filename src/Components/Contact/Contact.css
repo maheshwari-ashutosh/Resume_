@@ -1,9 +1,9 @@
 #Contact {
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 
 #Contact .contactTile {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   font-size: 1.4rem;
   color: black;
 }
@@ -14,5 +14,5 @@
 }
 
 .contactTile i {
-  margin: .2rem .5rem 0 0;
+  margin: 0 .5rem 0 0;
 }

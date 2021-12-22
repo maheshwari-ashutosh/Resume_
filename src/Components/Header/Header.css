@@ -4,14 +4,13 @@
 
 #Header h1 {
   font-size: 2.6rem;
-  margin-bottom: .5rem;
   font-weight: bold;
 }
 
 #Header h2 {
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 #Header p {

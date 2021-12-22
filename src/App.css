@@ -17,6 +17,7 @@ html {
   background-color: red;
   padding: 2rem;
   /* font-family: Arial, Helvetica, sans-serif */
+  font-family: 'calibri'
 }
 
 .d-flex {
@@ -37,4 +38,43 @@ html {
 
 .justify-content-between {
   justify-content: space-between !important;
+}
+
+.print-button {
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  /* border: 1px solid #eee; */
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: blue;
+  font-size: 2rem;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+}
+
+.print-button i {
+  margin-right: 1rem;
+}
+
+@media print {
+
+  @page {
+    size: A4;
+  }
+
+	.print-button {
+		visibility: hidden;
+	}
+
+  html {
+    visibility: hidden;
+  }
+
+  #Resume {
+    visibility: visible;
+    zoom: 90%;
+  }
 }

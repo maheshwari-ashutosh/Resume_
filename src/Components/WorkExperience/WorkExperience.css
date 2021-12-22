@@ -1,29 +1,35 @@
+#WorkExperience {
+  margin-bottom: 1rem;
+}
+
 .experienceDetails {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
+  padding-left: 2rem;
 }
 
 .experienceDetails > * {
   margin: .5rem 0;
 }
 
-.experienceDetails .position {
+.workExperienceCard .position {
   font-size: 2rem;
   font-weight: bold;
 }
 
 .experienceDetails .companyName {
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: 500;
+  font-size: 2rem;
+  /* font-style: italic; */
+  font-weight: 700;
 }
 
 .experienceDetails .duration {
   font-size: 1.4rem;
   font-weight: bold;
+  color: #777;
 }
 
 .experienceDetails ul {
-  list-style: none;
-  font-size: 1.2rem;
+  /* list-style: none; */
+  font-size: 1.4rem;
   font-weight: 500;
 }
