@@ -16,4 +16,25 @@ html {
   justify-content: center;
   background-color: red;
   padding: 2rem;
+  /* font-family: Arial, Helvetica, sans-serif */
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
 }

@@ -1,0 +1,29 @@
+.experienceDetails {
+  margin: 1.5rem 0;
+}
+
+.experienceDetails > * {
+  margin: .5rem 0;
+}
+
+.experienceDetails .position {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.experienceDetails .companyName {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.experienceDetails .duration {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.experienceDetails ul {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

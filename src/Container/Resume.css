@@ -1,6 +1,8 @@
 #Resume {
   position: relative;
   width: 21cm;
-  height: 29.7cm;
+  min-height: 29.7cm;
   background-color: white;
+  padding: 3rem;
+  border-radius: 5px;
 }
