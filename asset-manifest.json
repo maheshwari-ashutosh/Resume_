@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Resume_/static/css/main.3f9243e4.chunk.css",
-    "main.js": "/Resume_/static/js/main.e226a3e1.chunk.js",
-    "main.js.map": "/Resume_/static/js/main.e226a3e1.chunk.js.map",
-    "runtime-main.js": "/Resume_/static/js/runtime-main.da7eabfa.js",
-    "runtime-main.js.map": "/Resume_/static/js/runtime-main.da7eabfa.js.map",
+    "main.css": "/Resume_/static/css/main.fb907393.chunk.css",
+    "main.js": "/Resume_/static/js/main.ac7596aa.chunk.js",
+    "main.js.map": "/Resume_/static/js/main.ac7596aa.chunk.js.map",
+    "runtime-main.js": "/Resume_/static/js/runtime-main.0141c049.js",
+    "runtime-main.js.map": "/Resume_/static/js/runtime-main.0141c049.js.map",
     "static/css/2.36bcdb7b.chunk.css": "/Resume_/static/css/2.36bcdb7b.chunk.css",
-    "static/js/2.987efba0.chunk.js": "/Resume_/static/js/2.987efba0.chunk.js",
-    "static/js/2.987efba0.chunk.js.map": "/Resume_/static/js/2.987efba0.chunk.js.map",
-    "static/js/3.924d9700.chunk.js": "/Resume_/static/js/3.924d9700.chunk.js",
-    "static/js/3.924d9700.chunk.js.map": "/Resume_/static/js/3.924d9700.chunk.js.map",
+    "static/js/2.7865a144.chunk.js": "/Resume_/static/js/2.7865a144.chunk.js",
+    "static/js/2.7865a144.chunk.js.map": "/Resume_/static/js/2.7865a144.chunk.js.map",
+    "static/js/3.c59483e3.chunk.js": "/Resume_/static/js/3.c59483e3.chunk.js",
+    "static/js/3.c59483e3.chunk.js.map": "/Resume_/static/js/3.c59483e3.chunk.js.map",
     "index.html": "/Resume_/index.html",
     "static/css/2.36bcdb7b.chunk.css.map": "/Resume_/static/css/2.36bcdb7b.chunk.css.map",
-    "static/css/main.3f9243e4.chunk.css.map": "/Resume_/static/css/main.3f9243e4.chunk.css.map",
-    "static/js/2.987efba0.chunk.js.LICENSE.txt": "/Resume_/static/js/2.987efba0.chunk.js.LICENSE.txt",
+    "static/css/main.fb907393.chunk.css.map": "/Resume_/static/css/main.fb907393.chunk.css.map",
+    "static/js/2.7865a144.chunk.js.LICENSE.txt": "/Resume_/static/js/2.7865a144.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/Resume_/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.da7eabfa.js",
+    "static/js/runtime-main.0141c049.js",
     "static/css/2.36bcdb7b.chunk.css",
-    "static/js/2.987efba0.chunk.js",
-    "static/css/main.3f9243e4.chunk.css",
-    "static/js/main.e226a3e1.chunk.js"
+    "static/js/2.7865a144.chunk.js",
+    "static/css/main.fb907393.chunk.css",
+    "static/js/main.ac7596aa.chunk.js"
   ]
 }
