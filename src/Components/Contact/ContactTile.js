@@ -5,7 +5,7 @@ const ContactTile = (props) => {
   const {icon, value, displayValue} = props.contact;
   return <div className='contactTile d-flex align-items-center' >
     <i className={icon}></i>
-    <a href={value}>{displayValue}</a>
+    <a target='_blank' href={value} rel="noreferrer">{displayValue}</a>
   </div>
 }
 

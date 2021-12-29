@@ -1,5 +1,37 @@
-const workExperience = {
+export const headerInfo = {
+  name: "Ashutosh Maheshwari",
+  currentPosition: "Senior Software Engineer",
+  // summary: "This is Summary",
+}
+
+export const contactInfo = {
+  email: {
+    value: "mailto:ashutosh.ismcse@gmail.com",
+    displayValue: "ashutosh.ismcse@gmail.com",
+    icon: "fa fa-envelope"
+  },
+  phone: {
+    value: "tel:8770096276",
+    displayValue: "8770096276",
+    icon: "fa fa-phone"
+  },
+  linkedin: {
+    value: "https://www.linkedin.com/in/maheshwari-ashutosh/",
+    displayValue: "maheshwari-ashutosh",
+    icon: "fa fa-linkedin"
+  },
+  github: {
+    value: "https://github.com/maheshwari-ashutosh",
+    displayValue: "maheshwari-ashutosh",
+    icon: "fa fa-github"
+  },
+}
+
+
+export const workExperience = {
+  // Position
   "Senior Software Engineer": {
+    // Companies in this Position
     "Vyapar App, Bangalore": {
       fromDate: "May 2021",
       toDate: "Present",
@@ -40,4 +72,33 @@ const workExperience = {
   },
 }
 
-export default workExperience;
+export const education = {
+  'Dual Degree in CSE': {
+    name: 'IIT(ISM) Dhanbad',
+    from: 'July 2013',
+    to: 'May 2018',
+    summary: [
+      "with OGPA 8.33",
+      "End semester thesis on 'Fast Phrase Querying using n-hashgram indexing technique'",
+    ],
+  },
+};
+
+export const achievements = [
+  {
+    "title": "Samsung Citizen Award",
+    "detail": "For outstanding work in FL Dashboard development"
+  },
+  {
+    "title": "Professional Software competency level in Samsung",
+    "detail": ""
+  },
+  {
+    "title": "Semi-finalist in Go Green in the City 2015",
+    "detail": "Secured rank under 100 world-wide"
+  }
+]
+
+export const skills = [
+  "JavaScript", "Reactjs", "Sass/CSS", "C++", "Java", "HTML", "Git", "Data Structures", "Algorithms"
+]

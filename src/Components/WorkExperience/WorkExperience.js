@@ -1,17 +1,25 @@
-import React from "react";
+import React from 'react';
 import './WorkExperience.css';
 
-import workExperience from "../../data/WorkExperience";
-import WorkExperienceCard from "./WorkExperienceCard";
-import Heading from "../Heading/Heading";
+import WorkExperienceCard from './WorkExperienceCard';
+import Heading from '../Heading/Heading';
 
 const WorkExperience = (props) => {
-  return <div id='WorkExperience'>
-    <Heading heading='Work Experience' />
-    {Object.keys(workExperience).map(key => {
-      return <WorkExperienceCard key={key} position={key} companyDetails={workExperience[key]} />
-    })}
-  </div>
-}
+  const workExperience = props.data;
+  return (
+    <div id='WorkExperience'>
+      <Heading heading='Work Experience' />
+      {Object.keys(workExperience).map((key) => {
+        return (
+          <WorkExperienceCard
+            key={key}
+            position={key}
+            companyDetails={workExperience[key]}
+          />
+        );
+      })}
+    </div>
+  );
+};
 
 export default WorkExperience;
